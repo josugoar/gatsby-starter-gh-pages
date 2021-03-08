@@ -1,16 +1,14 @@
 {
-  "name": "josugoar.github.io",
+  "name": "gatsby-starter-gh-pages",
   "version": "1.0.0",
-  "private": true,
-  "description": "josugoar.github.io",
-  "author": "Josu",
+  "description": "Bootstrap a customized GitHub repository showcase in seconds",
+  "author": "josugoar",
   "keywords": [
     "react",
     "javascript",
     "primer",
     "typescript",
     "gh-pages",
-    "gatsby",
     "gatsby"
   ],
   "scripts": {
