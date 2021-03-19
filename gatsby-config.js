@@ -1,10 +1,9 @@
-const dotenv = require("dotenv")
+const { config } = require("dotenv")
 
-dotenv.config()
+config()
 
 module.exports = {
   plugins: [
-    "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-graphql",
       options: {
@@ -12,9 +11,10 @@ module.exports = {
         fieldName: "github",
         url: "https://api.github.com/graphql",
         headers: {
-          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+          Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
         },
       },
     },
+    "gatsby-plugin-sass",
   ],
 }
