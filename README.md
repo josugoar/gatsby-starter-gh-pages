@@ -1,4 +1,4 @@
-# gatsby-starter-gh-pages
+# gatsby-starter-github
 
 > Bootstrap a customized GitHub repository showcase in seconds
 
