@@ -38,6 +38,7 @@ const Repository = ({
       >
         <img
           className="d-block width-full"
+          style={{ maxHeight: 275, objectFit: "contain" }}
           loading="lazy"
           src={openGraphImageUrl}
           alt={name}
