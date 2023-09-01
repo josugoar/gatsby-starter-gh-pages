@@ -2,23 +2,11 @@
   "name": "gatsby-starter-github",
   "version": "2.2.0",
   "keywords": [
-    "docker",
-    "es6",
-    "eslint",
-    "frontend",
-    "gatsby",
     "gatsby-starter",
     "gh-pages",
     "github-api",
     "graphql",
-    "javascript",
-    "npm",
-    "prettier",
-    "primer",
-    "react",
-    "sass",
-    "typescript",
-    "webapp"
+    "primer"
   ],
   "bugs": {
     "url": "https://github.com/josugoar/gatsby-starter-github/issues"
